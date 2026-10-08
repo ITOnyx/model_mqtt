@@ -3,6 +3,8 @@ raw/
 csv_raw_chunks/
 features/
 *.csv
+!benchmark/results/*.csv
+benchmark/sample_data/
 *.parquet
 *.zip
 *.tar.gz
