@@ -1,0 +1,45 @@
+# Data files (exceeds GitHub file size limit > 100MB)
+raw/
+csv_raw_chunks/
+features/
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & Artifacts
+weights/
+*.pth
+*.onnx
+*.pkl
+*.h5
+
+# OS & IDE
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Agent workspace & external submodules
+.agents/
+mqtt_ml_repo/
+
+# Excluded services, docs, and local launcher configs
+docs/
+mqtt_ids_service/
+Dockerfile
+render.yaml
+launch_all_servers.py
+start_all_servers.bat
